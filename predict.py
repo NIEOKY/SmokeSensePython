@@ -10,10 +10,10 @@ def hacer_prediccion(rf, scaler, entrada):
 def mostrar_prediccion(prediccion):
     if prediccion == 3:
         print("La persona no fuma")
-        return "La persona no fuma"
+        return "Mi prediccion es que eres una persona que no fuma, ¡felicidades!👍"
     elif prediccion == 2:
         print("La persona es fumadora casual")
-        return "La persona es fumadora casual"
+        return "Mi prediccion es que eres una persona que fuma casualmente, ¡cuidado con tu salud!🚬"
     elif prediccion == 1:
         print("La persona fuma muy seguido")
-        return "La persona fuma muy seguido"
+        return "Mi prediccion es que eres una persona que fuma muy seguido, cuidado con tu salud!💀"
